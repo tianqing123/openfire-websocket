@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Plugin configuration for the websockets plugin.
+-->
+<plugin>
+    <class>org.jivesoftware.openfire.plugin.WebSocketsPlugin</class>
+    <name>websockets</name>
+    <description>woqu websocket</description>
+    <author>jungui.liu</author>
+    <version>1.0</version>
+    <date>15/4/2015</date>
+    <url>http://www.igniterealtime.org</url>
+    <minServerVersion>3.9.0</minServerVersion>
+    <adminconsole>    
+        <tab id="tab-server">
+            <sidebar id="sidebar-server-settings">
+                <item id="update-service" name="websocket" url="websockets.jsp"
+                     description="websocket设置界面" />
+            </sidebar>
+        </tab>
+    </adminconsole>
+</plugin>
